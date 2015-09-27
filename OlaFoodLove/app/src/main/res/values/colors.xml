@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Apps Primary Colors in Blue Palette -->
+    <color name="Primary700">#1976D2</color>
+    <color name="Primary500">#2196F3</color>
+    <color name="Primary300">#4FC3F7</color>
+    <color name="Primary100">#BBDEFB</color>
+
+    <!-- Apps Accent Colors in Red Palette -->
+    <color name="Accent400">#FF1744</color>
+    <color name="Accent200">#FF5252</color>
+    <color name="Accent100">#FF8A80</color>
+
+    <!-- Shades of Black & Gray -->
+    <color name="black_trans">#11000000</color>
+    <color name="light_gray">#D999</color>
+
+    <!-- Blue Layer Colors -->
+    <color name="top_dark_blue">#591565C0</color>
+    <color name="bottom_light_blue">#261976D2</color>
+
+    <!-- Date / Time Picker Themes -->
+    <color name="mdtp_accent_color">#2196F3</color>
+    <color name="mdtp_accent_color_dark">#1976D2</color>
+
+    <!--  -->
+    <color name="receipt_bg">#C3AD77</color>
+</resources>

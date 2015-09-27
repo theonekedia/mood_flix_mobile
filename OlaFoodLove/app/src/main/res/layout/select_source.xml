@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:customfont="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <hobbyst.ola.foodlove.libs.CustomButton
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:text="Search for Activites around you"
+            android:textColor="@color/Primary300"
+            android:textSize="30sp"
+            customfont:fontName="Roboto-Regular.ttf" />
+
+        <hobbyst.ola.foodlove.libs.CustomButton
+            android:id="@+id/btn_create"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:text="Create an Activity"
+            android:textColor="@color/Primary300"
+            android:textSize="30sp"
+            customfont:fontName="Roboto-Regular.ttf" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <com.mingle.widget.LoadingView
+            android:id="@+id/loadingView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/white_bg" />
+    </RelativeLayout>
+</RelativeLayout>

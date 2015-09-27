@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/Primary500</item>
+        <item name="colorPrimaryDark">@color/Primary700</item>
+        <item name="colorAccent">@color/Accent200</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+    </style>
+</resources>

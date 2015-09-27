@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyWidget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="FloatingHintStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--sets the point size to the menu item(s) in the upper right of action bar-->
+    <style name="MyActionBar.MenuTextStyle" parent="@android:style/Widget.ActionBar.TabText">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

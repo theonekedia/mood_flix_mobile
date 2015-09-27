@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary100"
+    android:padding="@dimen/activity_margin">
+
+    <hobbyst.ola.foodlove.libs.CustomTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap_categories"
+        android:textColor="@android:color/black"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        app:fontName="Roboto-Light.ttf" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <hobbyst.ola.foodlove.libs.collectionpicker.CollectionPicker
+            android:id="@+id/collection_item_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cp_addIcon="@drawable/collection_add"
+            app:cp_cancelIcon="@drawable/collection_selected"
+            app:cp_itemBackgroundNormal="@android:color/white"
+            app:cp_itemBackgroundPressed="@color/Accent400"
+            app:cp_itemMargin="5dp"
+            app:cp_itemRadius="25dp"
+            app:cp_textPaddingBottom="5dp"
+            app:cp_textPaddingLeft="10dp"
+            app:cp_textPaddingRight="10dp"
+            app:cp_textPaddingTop="5dp" />
+    </ScrollView>
+
+</RelativeLayout>

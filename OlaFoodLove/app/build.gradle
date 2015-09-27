@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "hobbyst.ola.foodlove"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'hobbyst.ola.foodlove.libs', include: ['*.jar'])
+    compile project(':volley')
+    compile project(':shapeloading')
+    compile 'com.github.kikoso:SwipeableCards:1.1-RELEASE@aar'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.3.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.android.gms:play-services-plus:8.1.0'
+    compile 'com.google.android.gms:play-services-identity:8.1.0'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.google.android.gms:play-services-maps:8.1.0'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.google.android.gms:play-services-location:8.1.0'
+}

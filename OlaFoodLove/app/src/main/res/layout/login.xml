@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/btn_fb"
+                android:layout_width="258dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerInside" />
+
+            <hobbyst.ola.foodlove.libs.CustomTextView
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:clickable="false"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/ic_fb"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/login_via_fb"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                customfont:fontName="Roboto-Light.ttf" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btn_gplus"
+                android:layout_width="258dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true" />
+
+            <hobbyst.ola.foodlove.libs.CustomTextView
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/ic_gplus"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:clickable="false"
+                android:paddingLeft="5dp"
+                android:text="@string/login_via_gplus"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                customfont:fontName="Roboto-Light.ttf" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <com.mingle.widget.LoadingView
+            android:id="@+id/loadingView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/white_bg" />
+    </RelativeLayout>
+
+</RelativeLayout>

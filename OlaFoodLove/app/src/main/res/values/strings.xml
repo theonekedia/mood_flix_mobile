@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Ola Mood Flix</string>
+    <string name="back_key_exit">Press again to exit the App</string>
+
+    <!-- Navigation drawer items title -->
+    <string name="home">HOME</string>
+    <string name="order_history">ORDER HISTORY</string>
+    <string name="faqs">FAQs</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="logout">LOGOUT</string>
+
+    <!-- Login & Sign Up Page -->
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_via_fb">Login via Facebook</string>
+    <string name="login_via_gplus">Login via Google+</string>
+    <string name="or">OR</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="forgot"><u>Forgot Password ?</u></string>
+    <string name="adding...">Adding Your Mobile ...</string>
+    <string name="min_6_chars">Minimum 6 characters</string>
+    <string name="invalid_email">Invalid Email Address</string>
+    <string name="invalid_phone">Invalid Phone Number</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="login...">Logging In ...</string>
+    <string name="signing_up">Signing Up ...</string>
+    <string name="placing_request">Placing your request ...</string>
+    <string name="submit">Submit</string>
+    <string name="email_mobile">"Email id / Mobile No."</string>
+    <string name="request_sent">Request Sent</string>
+    <string name="receive_email">You will receive an email shortly.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="email">Email</string>
+    <string name="description">Enter description</string>
+
+    <string name="tap_categories">Tap an Activity you like</string>
+    <string name="min_activities">Tap at least 1 Activity</string>
+    <string name="max_activities">Maximum 1 Activity allowed</string>
+    <string name="search_places">Search for Near By Places</string>
+    <string name="no_places">No Near By Places</string>
+
+    <!-- Common network & error messages -->
+    <string name="network_error">DATA CONNECTION UNAVAILABLE</string>
+    <string name="server_error">UNABLE TO REACH SERVER</string>
+    <string name="et_amount_error">Please enter a valid amount</string>
+    <string name="error_image">Couldn’t attach the image. Try again.</string>
+    <string name="updating_profile...">Updating Profile ...</string>
+    <string name="error_updating_profile">Error Updating Profile</string>
+    <string name="creating_order...">Creating Order ...</string>
+    <string name="error_creating_order">Error Creating Order</string>
+    <string name="fetching_address...">Fetching Addresses ...</string>
+    <string name="error_fetching_address">Error Fetching Address</string>
+    <string name="no_address">No saved addresses</string>
+    <string name="error_select_address">Please select an address</string>
+    <string name="saving_address...">Saving Address ...</string>
+    <string name="error_saving_address">Error Saving Address</string>
+    <string name="updating_address...">Updating Address ...</string>
+    <string name="error_updating_address">Error Updating Address</string>
+    <string name="payment_error">Error initiating payment</string>
+    <string name="place_order">Placing Order ...</string>
+    <string name="error_place_order">Error Placing Order</string>
+    <string name="success_order">Order Successfully Placed</string>
+    <string name="cancelling_order...">Cancelling Order ...</string>
+    <string name="error_cancelling_order">Error Cancelling Order</string>
+    <string name="error_fetching_order_history">Error Fetching Order History</string>
+    <string name="no_order_history">No Order History</string>
+
+    <!-- Facebook App ID & Google Maps -->
+    <string name="facebook_app_id">479100945621146</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAIl1APzTt7AOdxBG8G9kG35UOgTxRQSl8</string>
+
+    <!-- Toolbar items -->
+    <string name="next">Next</string>
+
+</resources>
